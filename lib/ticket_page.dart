@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TicketPage extends StatelessWidget {
-  Color c = const Color.fromARGB(1000, 75, 151, 184);
+  final Color c = const Color.fromARGB(1000, 75, 151, 184);
   Widget buildMain(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
