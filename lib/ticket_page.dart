@@ -36,6 +36,8 @@ class TicketPage extends StatelessWidget {
                 child: Container(
                   margin: EdgeInsets.only(top: 160, left: 30, right: 30),
                   child: ListView(
+                    shrinkWrap: true,
+                    physics: ClampingScrollPhysics(),
                     children: [
                       Text(
                         'Payment',
